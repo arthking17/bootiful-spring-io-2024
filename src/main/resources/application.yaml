@@ -14,7 +14,6 @@ spring:
       jdbc:
         schema-initialization:
           enabled: true
-
-openai:
-  api:
-    key: your_openai_api_key
+  ai:
+    openai:
+      api-key: api_key
